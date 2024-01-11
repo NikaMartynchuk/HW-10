@@ -1,3 +1,77 @@
-*{
-    font-family: "Roboto", sans-serif;
+.header{
+    font-family: 'Roboto', sans-serif;
 }
+
+
+.main{
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.header-a{
+    font-size: 14px;
+    line-height: 61.41px;
+  }
+  
+.header-a{
+    line-height:438,64%;
+  }
+
+  .main-h1{
+    font-size: 44px;
+    line-height: 60px;
+  }
+
+  .main-h1{
+    line-height: 136,36px;
+  }
+
+  .main-button{
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .main-button{
+    line-height: 187,5px;
+  }
+
+  .main-h5{
+    font-size: 14px;
+    line-height: 61.41px;
+  }
+
+  .main-h5{
+    line-height:438,64%;
+  }
+
+  .main-p{
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .main-p{
+    line-height:438,64%;
+  }
+
+  .main-h1{
+    font-size: 36px;
+    line-height: 42.19px;
+  }
+
+  .main-h1{
+    line-height:117,19%;
+  }
+
+  .main-h3{
+    font-size: 36px;
+    line-height: 42.19px;
+  }
+
+  .main-h3{
+    line-height:117,19%;
+  }
