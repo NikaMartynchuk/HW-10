@@ -64,10 +64,7 @@
 .main-h1 {
   font-size: 44px;
   font-weight: 900;
-  background-color: #2f303a;
-  color: white;
   text-align: center;
-  border: 1px solid #2f303a;
   line-height: 136%;
 }
 
@@ -125,7 +122,7 @@
   vertical-align: top;
 }
 
-.header-a1:hover{
+.header-a1:hover {
   color: var(--color-acent)
 }
 
@@ -153,7 +150,7 @@
 .footer-a {
   display: block;
   width: 30%;
-  margin: 50px auto 0;
+  margin-bottom: 20px;
 }
 
 .section-two {
@@ -168,3 +165,26 @@
   vertical-align: top;
   color: var(--clr);
 }
+
+.container1{
+  background-color: rgb(38, 38, 38);
+  color: white;
+  padding: 200px 0;
+}
+.container {
+  width: 1600px;
+  padding: 0 15px;
+  margin: 0 auto; 
+  outline: solid;
+}
+
+.footer{
+  background-color:  rgb(38, 38, 38);
+  padding: 161px 0;
+}
+
+.section-four{
+  background-color: #F5F4FA;
+  padding: 161px 0;
+}
+
