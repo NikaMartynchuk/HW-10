@@ -16,9 +16,6 @@
   line-height: 61.41%;
 }
 
-.header-a {
-  line-height: 438.64%;
-}
 
 .main-h1 {
   font-size: 44px;
@@ -66,11 +63,7 @@
   font-weight: 900;
   text-align: center;
   line-height: 136%;
-  padding: 200px;
-  padding-left: 452px;
-  padding-top: 200px;
-  padding-bottom: 280px;
-  padding-right: 452px;
+  margin-bottom: 50px;
 }
 
 .main-h3 {
@@ -118,12 +111,24 @@
   justify-content: space-between;
   align-items: center;
   font-size: 14px;
-  line-height: 60px;
   letter-spacing: 6%;
   align-content: center;
   font-weight: 500;
   font-size: 14px;
-  margin: 50px;
+  margin-right: 50px;
+  color: #212121;
+  vertical-align: top;
+}
+
+.header-tel{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  letter-spacing: 6%;
+  align-content: center;
+  font-weight: 500;
+  font-size: 14px;
   color: #212121;
   vertical-align: top;
 }
@@ -160,16 +165,18 @@
 }
 
 .section-two {
-  font-size: 44px;
   line-height: 60px;
   letter-spacing: 6%;
   align-content: center;
   font-weight: 500;
   font-size: 14px;
-  margin: 50px;
-  color: #212121;
   vertical-align: top;
   color: var(--clr);
+}
+
+.section-two1{
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .container1 {
@@ -179,7 +186,7 @@
 }
 
 .container {
-  width: 1600px;
+  width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -197,26 +204,6 @@
 .footer-p {
   color: white;
   padding: 9px;
-  padding-left: 214px;
-}
-
-.header-a{
-  padding: 24px; 
-}
-
-.section-two1{
-  padding-left: 215px;
-  padding-right: 215px;
-}
-
-.section-three-wrap{
-  padding-right: 215px;
-  padding-left: 215px;
-}
-
-.section-four-item{
-padding-left: 217px;
-padding-right: 1130px;
 }
 
 .main-h3{
@@ -227,6 +214,10 @@ padding-right: 1130px;
   padding-bottom: 30.46px;
 }
 
+element.style{
+  padding: 94px 0;
+}
+
 .footer-a{
-  padding-left: 214px;
+  padding: 0 15px;
 }
