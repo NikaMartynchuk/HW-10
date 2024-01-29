@@ -58,6 +58,12 @@
   line-height: 136%;
 }
 
+.header-a{
+  display: flex;
+  margin-right: 50px;
+  align-items: center;
+}
+
 .main-h1 {
   font-size: 44px;
   font-weight: 900;
@@ -72,7 +78,6 @@
   font-weight: 900;
   text-align: center;
   line-height: 136%;
-  width: 696px;
   margin-bottom: 50px;
 }
 
@@ -115,6 +120,7 @@
   display: flex;
   justify-content: space-between;
   padding: 24px 0;
+  margin: 20px auto 20px
 }
 
 .header-a1 {
@@ -131,8 +137,10 @@
   vertical-align: top;
 }
 
+
+
 .header-tel {
-  display: flex;
+  display: flex-end;
   justify-content: space-between;
   align-items: center;
   font-size: 14px;
@@ -142,11 +150,17 @@
   font-size: 14px;
   color: #212121;
   vertical-align: top;
+  margin-left: auto;
 }
 
 .header-a1:hover {
   color: var(--color-acent)
 }
+
+.header-tel:hover {
+  color: var(--color-acent)
+}
+
 
 
 .header-n {
@@ -182,13 +196,23 @@
   font-weight: 500;
   font-size: 14px;
   vertical-align: top;
-  color: var(--clr);
+  justify-content: space-between;
+  width: 24%;
 }
 
 .section-two1 {
+  display: flex;
   padding: 0 15px;
   margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
 }
+
+.section-two1{
+    justify-content: space-between;
+    display: flex;
+  }
+
 
 .container1 {
   background-color: rgb(38, 38, 38);
@@ -264,5 +288,5 @@ element.style {
   text-align: center;
   line-height: 136%;
   margin-bottom: 50px;
-  width: 696px;
 }
+
